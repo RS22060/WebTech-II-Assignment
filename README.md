@@ -6,6 +6,11 @@
 ## 1.Praktiskais uzdevums
 
 ### Uzdevums
+1. Izveidot datubāzi ar vismaz 3 tabulām (Izstrādes vide pēc izvēles);
+
+2. [Izveidot Entity Framework modeli balstītu uz Database First metodes;](https://github.com/RS22060/NewsArticleWebSite/tree/main/NewsArticleWebSite/Models)
+
+3. [Izveidot iespēju ievadīt un saglabāt datubāzē lietotāja definētus datus (UI izstrādes vide pēc izvēles).](https://github.com/RS22060/NewsArticleWebSite/tree/main/NewsArticleWebSite)
 
 ---
 
@@ -66,15 +71,15 @@ Vienkāršota cilvēkresursu sistēma uzņēmumam.
 ## 5.Praktiskais uzdevums
 
 ### Uzdevums
-Izveidot ASP.NET Core līmekļa lietotni;
+1. [Izveidot ASP.NET Core līmekļa lietotni;](https://github.com/RS22060/BookStore/tree/main/BookStore)
 
-Pievienot 1 modeli datu uzturēšanai;
+2. [Pievienot 1 modeli datu uzturēšanai;](https://github.com/RS22060/BookStore/blob/main/BookStore/Models/Book.cs)
 
-Pievienot vismaz 2 saskarnes;
+3. [Pievienot vismaz 2 saskarnes;](https://github.com/RS22060/BookStore/tree/main/BookStore/Views/Author)
 
-Pievienot 1 kontrolieri datu apstrādei;
+4. [Pievienot 1 kontrolieri datu apstrādei;](https://github.com/RS22060/BookStore/blob/main/BookStore/Controllers/AuthorController.cs)
 
-Izmantojot ASP.NET MVC funkcionalitāti, pārnest ievadītus datu starp 2 saskarnēm.
+5.[Izmantojot ASP.NET MVC funkcionalitāti, pārnest ievadītus datu starp 2 saskarnēm.](https://github.com/RS22060/BookStore/blob/main/BookStore/Views/Author/Index.cshtml)
 
 
 ---
@@ -106,4 +111,15 @@ Izmantojot ASP.NET MVC funkcionalitāti, pārnest ievadītus datu starp 2 saskar
 
 ## Eksāmena uzdevums
 
-### Uzdevums
+### Uzdevums +1 balle:
+1. Izveidot ASP.NET Core Web App (MVC) aplikāciju;
+
+2.Izveidot Entity Framework modeli;
+
+3. Izvadīt datus ASP.NET aplikācija no Entity Framework modeļa.
+
+### Uzdevums +1 balle:
+1. Izveidot ASP.NET Core Web API datu ievada un izguvei;
+
+2. Pēc datu ievades izmantojot POST metodes, parādīt datus ASP.NET Core Web App (MVC) aplikācijā;
+
