@@ -120,7 +120,7 @@ Lietotāja saskarnes kontrolierus ir izmantots adrešu serviss, kas ļauj izsauk
 2. [Izveidot Entity Framework modeli;](https://github.com/RS22060/AddresskbookAPI/blob/main/AddresskbookAPI/Models/Address.cs) - [konteksts](https://github.com/RS22060/AddresskbookAPI/blob/main/AddresskbookAPI/Infrastructure/AddressContext.cs)
 
 3. Izvadīt datus ASP.NET aplikācija no Entity Framework modeļa:
-- [REST API controlieris](https://github.com/RS22060/AddresskbookAPI/blob/main/AddresskbookAPI/Infrastructure/AddressContext.cs)
+- [REST API controlieris]([https://github.com/RS22060/AddresskbookAPI/blob/main/AddresskbookAPI/Infrastructure/AddressContext.cs](https://github.com/RS22060/AddresskbookAPI/blob/main/AddresskbookAPI/Controllers/AddressesController.cs))
 
 ### Uzdevums +1 balle:
 1. [Izveidot ASP.NET Core Web API datu ievada un izguvei;](https://github.com/RS22060/AddresskbookAPI/tree/main/AddresskbookAPI)
