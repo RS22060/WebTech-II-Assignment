@@ -110,16 +110,24 @@ Vienkāršota cilvēkresursu sistēma uzņēmumam.
 ---
 
 ## Eksāmena uzdevums
+Kā eksāmena uzdevumu es izveidoju adrešu grāmatas aplikāciju, kurā lietotājs var saglabāt visas savas adreses. Tā sastāv no
+MVC aplikācijas un šajā gadījumā tas ir frontend un REST API, kas piekļūst pie datu bāzes un veic datu apstrādi un šajā gadījumā tas ir backend.
+Lietotāja saskarnes kontrolierus ir izmantots adrešu serviss, kas ļauj izsaukt adrešu lietojumsaskarnes 
 
 ### Uzdevums +1 balle:
-1. Izveidot ASP.NET Core Web App (MVC) aplikāciju;
+1. [Izveidot ASP.NET Core Web App (MVC) aplikāciju;](https://github.com/RS22060/AddresskbookAPI/tree/main/AdressbookApp)
 
-2.Izveidot Entity Framework modeli;
+2. [Izveidot Entity Framework modeli;](https://github.com/RS22060/AddresskbookAPI/blob/main/AddresskbookAPI/Models/Address.cs) - [konteksts](https://github.com/RS22060/AddresskbookAPI/blob/main/AddresskbookAPI/Infrastructure/AddressContext.cs)
 
-3. Izvadīt datus ASP.NET aplikācija no Entity Framework modeļa.
+3. Izvadīt datus ASP.NET aplikācija no Entity Framework modeļa:
+- [REST API controlieris](https://github.com/RS22060/AddresskbookAPI/blob/main/AddresskbookAPI/Infrastructure/AddressContext.cs)
 
 ### Uzdevums +1 balle:
-1. Izveidot ASP.NET Core Web API datu ievada un izguvei;
+1. [Izveidot ASP.NET Core Web API datu ievada un izguvei;](https://github.com/RS22060/AddresskbookAPI/tree/main/AddresskbookAPI)
 
-2. Pēc datu ievades izmantojot POST metodes, parādīt datus ASP.NET Core Web App (MVC) aplikācijā;
+2. Pēc datu ievades izmantojot POST metodes, parādīt datus ASP.NET Core Web App (MVC) aplikācijā:
+ - [Datu ievades saskarne](https://github.com/RS22060/AddresskbookAPI/blob/main/AdressbookApp/Views/Addresses/Create.cshtml)
+ - [MVC Kontrolieris](https://github.com/RS22060/AddresskbookAPI/blob/main/AdressbookApp/Controllers/AddressesController.cs)
+ - [REST API serviss MVC aplikācijā](https://github.com/RS22060/AddresskbookAPI/blob/main/AdressbookApp/Infrastructure/AddressService.cs)
+ - Datu attēlošanas saskarne: [saraksts](https://github.com/RS22060/AddresskbookAPI/blob/main/AdressbookApp/Views/Addresses/Index.cshtml) un [detalizēts](https://github.com/RS22060/AddresskbookAPI/blob/main/AdressbookApp/Views/Addresses/Details.cshtml)
 
