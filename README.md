@@ -69,6 +69,7 @@ Vienkāršota cilvēkresursu sistēma uzņēmumam.
 ---
 
 ## 5.Praktiskais uzdevums
+Grāmatu veikals.
 
 ### Uzdevums
 1. [Izveidot ASP.NET Core līmekļa lietotni;](https://github.com/RS22060/BookStore/tree/main/BookStore)
@@ -85,6 +86,7 @@ Vienkāršota cilvēkresursu sistēma uzņēmumam.
 ---
 
 ## 6.Praktiskais uzdevums
+Pieteikšanās forma jaunumiem.
 
 ### Uzdevums
 1. [Izveidot API datu ieguvei no datu bāzes;](https://github.com/RS22060/NewsletterAPI/tree/main/NewsletterAPI)
@@ -96,6 +98,7 @@ Vienkāršota cilvēkresursu sistēma uzņēmumam.
 ---
 
 ## 7. un 8. Praktiskais uzdevums
+Darāmo lietu saraksts.
 
 ### Uzdevums
 
